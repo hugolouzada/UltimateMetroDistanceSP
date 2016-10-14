@@ -1,0 +1,15 @@
+calculate distance between two lat-lon coordinates
+
+collect metro stations lat-long coordinates
+
+access open street maps server
+
+mockup of android app
+
+create grid over SP. calculate distance between each grid point to the nearest metro station
+
+given a certain coordinate, find nearest grid point, report nearest metro station
+
+fleixibilizie por top x results, distance using walking, car, bike.
+
+connect to uber and send a route from starting point to nerest metro station
