@@ -16,7 +16,7 @@ def getDistanceFromLatLonInKm(coordinate1: Coordinate, coordinate2: Coordinate):
     :param coordinate2: other coordinate
     :return: distance in km
     """
-    R = 6375.51  # Radius of the earth in km at lat -23.5505199 and sea height of 763m, calculated at
+    R = 6375.515  # Radius of the planet in km at lat -23.5505199 and sea height of 768m
 
     dLat = coordinate2.latAsRad() - coordinate1.latAsRad()
 
@@ -31,3 +31,6 @@ def getDistanceFromLatLonInKm(coordinate1: Coordinate, coordinate2: Coordinate):
     c = 2 * atan2(sqrt(a), sqrt(1 - a))
 
     return R * c
+
+
+#todo: tests
